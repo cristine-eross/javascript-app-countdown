@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    background-image: url("/winter.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: 800;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
